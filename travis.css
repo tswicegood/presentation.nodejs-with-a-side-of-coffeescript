@@ -13,7 +13,7 @@ html {
 
 
 body {
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(102, 153, 153, 0.5);
 }
 
 h1, h2, h3, h4 { 
@@ -31,18 +31,50 @@ h4 em { font-family: "CantarellBoldOblique"; }
 h5 { font-size: 2.1em; font-style: italic; font-weight: normal; }
 p, li { font-size: 1.5em; text-indent: 2.5em; margin-bottom: 1em; }
 
-div.content {
-    margin-top: 4em;
+strike {
+    color: rgba(200, 0, 0, 1.0);
 }
+
+.sh_sourceCode {
+    display:block;
+    padding: 2.0em 1.25em;
+    font-size: 3.25em;
+    border-radius: 2em;
+    margin-top:-2em;
+    -webkit-box-shadow:0.1em 0.175em 0.5em rgba(0,0,0,0.3);
+}
+
+#preso, #footer, .slide {
+    border: 0;
+    background-color: transparent;
+    overflow: visible !important;
+}
+
+.slide h1 {
+    border-radius: 0.25em;
+    font-size: 15em;
+    background: white;
+    padding: 0.5em 0;
+    -webkit-box-shadow:0.1em 0.175em 0.5em rgba(0,0,0,0.3);
+}
+
 div[ref="title/01_title_slide"] > h1 {
+    font-size: 10.2em;
     margin: 1.5em 0 0;
     padding-top: 1em;
-    background-color: #669999;
+    border-radius: 0 !important;
+    border-top-left-radius: 0.7em !important;
+    border-top-right-radius: 0.7em !important;
+    background-color: white;
 }
+
 div[ref="title/01_title_slide"] > h2 {
     margin: 0 0 2.5em 0;;
     padding-bottom: 1em;
-    background-color: #669999;
+    border-bottom-left-radius: 1.0em;
+    border-bottom-right-radius: 1.0em;
+    -webkit-box-shadow:0.15em 0.25em 0.75em rgba(0,0,0,0.3);
+    background-color: white;
 }
 
 
@@ -51,3 +83,4 @@ div[ref="title/01_title_slide"] h3 {
     color: rgba(0, 0, 0, 0.5);
 
 }
+

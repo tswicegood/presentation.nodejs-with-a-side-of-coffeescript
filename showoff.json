@@ -1,7 +1,8 @@
 { 
-    "name": "My Preso",
+    "name": "Node.js with a side of CoffeeScript",
     "sections": [
         {"section": "title"},
+        {"section": "what_is_node"},
         {"section": "credits"}
     ]
 }
