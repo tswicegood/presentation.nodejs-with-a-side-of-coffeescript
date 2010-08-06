@@ -4,6 +4,7 @@
         {"section": "title"},
         {"section": "what_is_node"},
         {"section": "what_is_coffeescript"},
+        {"section": "using_vows"},
         {"section": "credits"}
     ]
 }

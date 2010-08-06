@@ -85,3 +85,15 @@ div[ref="what_is_coffeescript/01_intro/10"] .sh_javascript {
     font-size:1.5em;
 }
 /* */
+
+div.slide > div.image {
+    margin-top: 2em !important;
+}
+
+div.slide div.image p {
+    margin:0; padding:0;
+}
+
+img {
+    display: block;
+}
