@@ -153,3 +153,25 @@ Becomes:
 * Concise Syntax
 * Pattern matching
 * Splats
+* Cake
+
+!SLIDE
+# Installation (from source)
+
+    @@@ sh
+    > hub clone jashkenas/coffee-script
+    > cd coffee-script
+    > cake install
+
+!SLIDE
+# Installation (via NPM)
+
+    @@@ sh
+    > npm install coffee-script
+
+!SLIDE
+# Installation (via Homebrew)
+
+    @@@ sh
+    > brew install coffee-script
+
